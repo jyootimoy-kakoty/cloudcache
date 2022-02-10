@@ -9,11 +9,13 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "5.0.0",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "tailwindcss": "3.0.17"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "build-css": "tailwindcss build ./src/App.css -o ./src/AppTailwind.css",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
